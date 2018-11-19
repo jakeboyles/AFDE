@@ -1,0 +1,168 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:1.45em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width:300px;
+}
+
+header {
+    background-color:#E7E7E7;
+    padding:5px 0px;
+}
+
+header .btn {
+    float:right;
+    margin-top:20px;
+    background-color:#E5984C;
+    color:#fff;
+    border-color: #E5984C;
+    text-transform: uppercase;
+}
+
+header .btn:hover {
+    background-color:#b96e23;
+    cursor: pointer;
+    border-color:#b96e23;
+}
+
+nav {
+    background-color:#2c6291;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:0;
+    padding:0;
+}
+
+nav i {
+    margin-right:10px;
+}
+
+nav ul li {
+    color:#fff;
+    display:inline;
+    padding:0;
+    text-transform:uppercase;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding:15px;
+
+}
+
+nav li:hover {
+    background-color:#E5984C;
+    color:#000;
+    cursor: pointer;
+}
+
+nav h3 {
+    color:#fff;
+    text-align:right;
+    font-size:1.2em;
+    vertical-align: middle;
+    padding-top:13px;
+    font-weight:bold;
+}
+
+.bgImage {
+    background-image:url('../images/bg.jpg');
+    height:400px;
+    background-size: cover;
+    box-shadow:0px 0px 10px rgba(0,0,0,.3);
+}
+
+.quote {
+    text-align:right;
+    display:block;
+    margin-top:60px;
+    text-align: right;
+    width:100%;
+}
+
+.quote h2 {
+    width:50%;
+    text-align:right;
+    float:right;
+    font-size:3.5em;
+}
+
+.quote h3 {
+    float:right;
+    width:100%;
+}
+
+.content {
+    margin-top:3em;
+}
+
+.mainContent {
+    padding-right:30px;
+}
+
+.content h2 {
+    border-bottom:4px solid #39628D;
+    padding-bottom:4px;
+    margin-bottom:.5em;
+    text-transform: uppercase;
+}
+
+.sidebar .extra {
+    margin-top:60px;
+}
+
+footer {
+    margin-top:60px;
+    background-color:#39628D;
+    height:300px;
+    padding-top:40px;
+}
+
+footer h3 {
+    color:#fff;
+    padding-bottom:10px;
+    border-bottom:4px solid #244567;
+}
+
+footer ul {
+    padding:0;
+    margin:0;
+    margin-top:15px;
+    list-style:none;
+    text-transform: uppercase;
+}
+
+footer .col-md-4 {
+    padding-right:30px;
+}
+
+footer li {
+    color:#fff;
+    margin-bottom:10px;
+}
+
+footer li:hover {
+    cursor: pointer;
+    font-weight:bold;
+}
+
+footer .contact i {
+    width:2em;
+    float:left;
+}
+
+footer li {
+    width:100%;
+    display:inline-block;
+}
+
+footer .contact span {
+    float:left;
+}
